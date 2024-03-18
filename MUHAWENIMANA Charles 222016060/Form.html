@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            background-color:peachpuff;
+            color: green;
+            font: normal 16px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+	  <p>
+        <a href="./home.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a>
+        <a href="./services.html">SERVICES</a>
+        <a href="./form.html">FORM</a>
+        <a href="./table.html">TABLE</a>
+        <a href="./book.html">MYBOOK</a>
+    </p>
+    <marquee>welcome</marquee>
+    <hr>
+    <h1>Form Example</h1>
+        <form action="#" method="POST">
+            <label for="passid">passport ID</label>
+            <input type="number" name="id" id="id"><br><br>
+
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname"><br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname"><br><br>
+
+            <label for="date">DOB</label>
+            <input type="date" name="date" id="date"><br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age"><br><br>
+
+            <label for="age">AGE</label>
+            <select name="age" id="age">
+                <option value="0-10 years">0-10 years</option>
+                <option value="10-20 years">10-20 years</option>
+                <option value="20-30 years">20-30 years</option>
+                <option value="30-40 years">30-40 years</option>
+                <option value="40-50 years">40-50 years</option>
+                <option value="50+ years">50+ years</option>
+            </select><br><br>
+
+              <label>Sex</label>
+            <input type="radio" name="sex" value="male" checked>Male
+            <input type="radio" name="sex" value="female">Female<br><br>
+
+            <label for="gr">Group</label>
+            <input type="text" name="gr" id="gr"><br><br>
+
+
+            <input type="submit" name="sbt" value="SUBMIT">
+            <input type="reset" name="cnl" value="CANCEL"><br>
+        </form>
+</body>
+</html>
